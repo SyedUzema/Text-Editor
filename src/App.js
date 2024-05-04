@@ -3,7 +3,6 @@ import Navbar from './Components/Navbar';
 import TextForm from './Components/Textform';
 import React, { useState } from 'react';
 import About from './Components/About';
-import { Switch } from 'react-router-dom';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,7 +10,6 @@ import {
 } from "react-router-dom";
 function App() {
   const [mode, setMode] = useState('light');
-
   const toggleMode = () => {
     setMode(mode === 'light' ? 'dark' : 'light');
     document.body.style.backgroundColor = mode === 'light' ? 'grey' : 'white';
