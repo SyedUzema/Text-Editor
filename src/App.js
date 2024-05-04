@@ -5,7 +5,6 @@ import React, { useState } from 'react';
 import About from './Components/About';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Routes,
   Link
