@@ -19,7 +19,7 @@ function App() {
     <>
     <Router>
     <Navbar title="TextUtils" aboutText="About us" mode={mode} toggleMode={toggleMode} />
-    <div className="Container">
+    <div className="Container">  
       <Routes>
         <Route path="/About" element={<About />} />
         <Route path="/" element={<TextForm heading=" Enter the text form to analyze " mode={mode} />} />

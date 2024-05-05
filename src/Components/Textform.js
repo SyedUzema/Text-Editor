@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 export default function TextForm(props) 
   {
-  const [text, setText] = useState('Enter text here');
+  const [text, setText] = useState('');
   function handleConvertToUppercase() {
     const uppercaseText = text.toUpperCase();
     setText(uppercaseText);
@@ -29,11 +29,12 @@ export default function TextForm(props)
       console.error('Failed to copy text to clipboard', error);
     });
   }
+
   return (
     <>
               <div className="container" style={{color: props.mode==='dark'?'white':'black'}}>
               <h1>{props.heading}</h1>
-              <textarea className="form-control" value={text} style={{backgroundColor: props.mode==='dark'?'grey':'white',color: props.mode==='dark'?'white':'black'}} id="myBox" rows="7" onChange={(e) => setText(e.target.value) } ></textarea>
+              <textarea className="form-control" placeholder='Enter text here' value={text} style={{backgroundColor: props.mode==='dark'?'grey':'white',color: props.mode==='dark'?'white':'black'}} id="myBox" rows="7" onChange={(e) => setText(e.target.value) } />
               <button className="btn btn-primary mx-1" onClick={handleConvertToUppercase}>Convert to Uppercase</button>
               <button className="btn btn-primary mx-1" onClick={handleConvertToLowercase}>Convert to Lowercase</button>
               <button className="btn btn-primary mx-1" onClick={handleConvertToClear}>Clear Text</button>
@@ -50,4 +51,3 @@ export default function TextForm(props)
     </>
   )
 }
-
