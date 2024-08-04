@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+TextEditor Website
+Welcome to the TextEditor website! This web application provides various text manipulation features, including capitalization, lowercasing, text preview, and more. It also includes a dark mode for a better user experience in low-light environments.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Capitalize Text: Convert all characters in your text to uppercase.
+Lowercase Text: Convert all characters in your text to lowercase.
+Copy Text: Easily copy your text to the clipboard with a single click.
+Remove Text: Clear all text from the input area.
+Text Preview: Preview your text in a designated area.
+Character Count: Display the total number of characters in the text.
+Word Count: Display the total number of words in the text.
+Reading Time Estimate: Estimate the time required to read the text based on average reading speed.
+Dark Mode: Switch between light and dark themes for better readability.
+Getting Started
+Prerequisites
+Make sure you have a modern web browser installed, such as Google Chrome, Mozilla Firefox, or Microsoft Edge.
 
-## Available Scripts
+Installation
+Clone the repository: git clone https://github.com/SyedUzema/Text-Editor.git
 
-In the project directory, you can run:
+bash
+Copy code
+git clone https://github.com/your-username/texteditor-website.git
+Navigate to the project directory:
 
-### `npm start`
+Open the index.html file in your web browser to start using the TextEditor.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Usage
+Open the index.html file in your web browser.
+Type or paste your text into the input area.
+Use the buttons provided to capitalize, lowercase, copy, or remove the text.
+The character count, word count, and estimated reading time will be displayed below the input area.
+Use the "Preview" button to see how your text will look.
+Toggle the dark mode switch to change between light and dark themes.
+Contributing
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them.
+Push your changes to your forked repository.
+Create a pull request to the main repository.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+Syed Uzema Sadiq - Developer
+Any other contributors or libraries used in the project
